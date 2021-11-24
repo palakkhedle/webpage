@@ -1,0 +1,43 @@
+.heading{
+    text-align: center;
+    color: orange;
+    text-underline-position: below ;
+}
+.bg-image{
+    background : url('./images/bgimage.gif') 0 0;
+    /* border-radius: 4px,4px,4px,4px; */
+    /* border-color: black; */
+    min-height: 500px;
+
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.putText{
+    position:relative;
+    text-align: '.bottom-right' ;
+    color: orange;
+    font-size: 45px;
+}
+
+  
+  /* Navbar links */
+  .topnav a {
+    float: center;
+    color: orange;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }  
